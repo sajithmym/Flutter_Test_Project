@@ -13,8 +13,10 @@ class MyApp extends StatelessWidget {
       title: "Sajith cool",
       home: Scaffold(
         appBar: AppBar(
-          
+          title: const Text("Sajithmym"),
+          backgroundColor: const Color.fromARGB(255, 9, 67, 126),
         ),
+        body: Icon(Icons.add_a_photo),
       ),
     );
   }
